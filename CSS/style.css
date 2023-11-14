@@ -1,67 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;700&display=swap');
 
-
+/* width - largura 400 /520 -- height - altura 700 / 520 */
 body{
     background-color: hsl(212, 45%, 89%);
-    min-width: 375px;
-    max-width: 1440px;
-    text-align: center;
     align-items: center;
+    text-align: center;
+    display: block;
 }
-.quadrado{
-    background-color: white;
-    width: 270px;
-    height: 450px;
-    border-radius: 7px;
+main, footer{
+    min-width: 300px;
+    max-width: 1440px;
+}
+article .rectangle{
+    border-radius: 14px;
+    background: white;
+    width: 400px;
+    height: 520px;
+    margin-top: 20px;
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 50px;
 }
-.img{
-    border-radius: 7px;
-    margin-top: 10px;
-    width: 250px;
-}
-.title{
-    font-family: 'Outfit' sans-serif;
-    font-weight: 700;
-    font-size: 22px;
-    margin-top: 30px;
-}
-.text{
-    font-family: 'Outfit', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-}
-.attribution{
-    margin-top: 15px;
-}
-
-/* 
-width - largura 
-height - altura /*
-
-
-.card{
-    max-width: 700px;
-    max-height: 750px;
-    min-height: 150px;
-    text-align: center;
-}
-.img{
+.rectangle img{
     width: 300px;
-    border-radius: 15px;
+    height: 300px;
+    border-radius: 10px;
     margin-top: 10px;
 }
-.title{
-    font-family: 'Outfit', sans-serif;
+aside .title{
+    font-family: 'Outfit' sans-serif;
     font-weight: bold;
-    font-size: 29px;
+    font-size: 25px;
 }
-.text{
-    font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+aside .text{
+    font-family: 'Outfit' sans-serif;
     font-weight: lighter;
-    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+footer .attribution{
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+footer .attribution a{
+    color: hsl(228, 45%, 44%);
 }
